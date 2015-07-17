@@ -3,4 +3,4 @@ udpcli01.out : udpcli01.o
 udpcli01.o : udpcli01.c
 	gcc -std=c99 -c udpcli01.c
 clean :
-	rm *.o udpcli01.out
+	rm  *.o udpcli01.out
